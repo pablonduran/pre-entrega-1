@@ -42,13 +42,11 @@ Copy-Item .env.example .env       # Windows
 | `LLM_MAX_TOKENS` | No (default `1024`) | Máximo de tokens de salida. |
 | `LLM_TOP_P` | No (default `1.0`) | Nucleus sampling, rango (0, 1]. |
 
-### API key gratuita con Google Gemini
+API key gratuita de Gemini:
 
-Si no tenés clave de OpenAI/Anthropic, Gemini ofrece una API key **gratuita**:
-
-1. Entrá a [Google AI Studio](https://aistudio.google.com).
+1. [Google AI Studio](https://aistudio.google.com).
 2. Click en **Get API key** → **Create API key**.
-3. En tu `.env` configurá:
+3. En el `.env` configurar:
    ```
    LLM_PROVIDER=gemini
    GEMINI_API_KEY=tu-clave-generada
