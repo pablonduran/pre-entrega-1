@@ -1,4 +1,4 @@
-# Pre-entrega 1 — Unified Async LLM Client
+# Pre-entrega 1 — Cliente de LLM robusto y asincrono
 
 Cliente de LLM en Python 3.12. Permite usar
 OpenAI o Anthropic detrás de una interfaz común, con validación de
