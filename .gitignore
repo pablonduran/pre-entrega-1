@@ -1,0 +1,12 @@
+# Secretos
+.env
+
+# Entorno virtual
+.venv/
+
+# Caches de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
